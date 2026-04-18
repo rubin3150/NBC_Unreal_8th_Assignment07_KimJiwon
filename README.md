@@ -2,7 +2,9 @@
 
 ## 시연 영상
 
-[▶ 유튜브에서 보기](https://youtu.be/UW3p8vCQSFg)
+[![시연 영상](https://img.youtube.com/vi/UW3p8vCQSFg/0.jpg)](https://youtu.be/UW3p8vCQSFg)
+
+
 
 ## 프로젝트 실행 방법
 
