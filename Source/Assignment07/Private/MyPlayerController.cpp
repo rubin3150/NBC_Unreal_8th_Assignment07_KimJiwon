@@ -1,4 +1,4 @@
-#include "MyPlayerController.h"
+ï»¿#include "MyPlayerController.h"
 #include "EnhancedInputSubsystems.h"
 
 AMyPlayerController::AMyPlayerController()
@@ -15,8 +15,8 @@ void AMyPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 
-	if (ULocalPlayer* LocalPlayer = GetLocalPlayer()) // ·ÎÄÃ ÇÃ·¹ÀÌ¾î Á¤º¸ °¡Á®¿À±â
-		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()) // EnhancedInputSystemÀ» °ü¸®ÇÏ´Â Subsystem È¹µæÇÏ±â
-			if (InputMappingContext) // IMC °´Ã¼ ÀÖ´ÂÁö È®ÀÎ
-				Subsystem->AddMappingContext(InputMappingContext, 0); // Subsystem¿¡ IMC ¿ì¼±¼øÀ§ ÃÖ¿ì¼±À¸·Î Ãß°¡
+	if (ULocalPlayer* LocalPlayer = GetLocalPlayer()) // ë¡œì»¬ í”Œë ˆì´ì–´ ì •ë³´ ê°€ì ¸ì˜¤ê¸°
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()) // EnhancedInputSystemì„ ê´€ë¦¬í•˜ëŠ” Subsystem íšë“í•˜ê¸°
+			if (InputMappingContext) // IMC ê°ì²´ ìˆëŠ”ì§€ í™•ì¸
+				Subsystem->AddMappingContext(InputMappingContext, 0); // Subsystemì— IMC ìš°ì„ ìˆœìœ„ ìµœìš°ì„ ìœ¼ë¡œ ì¶”ê°€
 }

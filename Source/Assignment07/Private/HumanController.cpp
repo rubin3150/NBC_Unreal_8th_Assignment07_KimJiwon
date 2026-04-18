@@ -1,4 +1,4 @@
-#include "HumanController.h"
+ï»¿#include "HumanController.h"
 #include "EnhancedInputSubsystems.h"
 
 AHumanController::AHumanController()
@@ -11,7 +11,7 @@ AHumanController::AHumanController()
 void AHumanController::BeginPlay()
 {
 	if (ULocalPlayer* LocalPlayer = GetLocalPlayer())
-		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>()) // EnhancedInputSystemÀ» °ü¸®ÇÏ´Â Subsystem È¹µæÇÏ±â
+		if (UEnhancedInputLocalPlayerSubsystem* Subsystem = LocalPlayer->GetSubsystem<UEnhancedInputLocalPlayerSubsystem>())
 			if (InputMappingContext)
 				Subsystem->AddMappingContext(InputMappingContext, 0);
 }
