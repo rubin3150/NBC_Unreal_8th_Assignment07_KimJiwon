@@ -1,18 +1,22 @@
-# NBC_Unreal_8th_Assignment07
+<h1 align="center">NBC_Unreal_8th_Assignment07</h1>
 
-## 시연 영상
+&nbsp;
+
+### 시연 영상
+
+아래 이미지를 클릭하시면 Youtube로 연결됩니다.
 
 [![시연 영상](https://img.youtube.com/vi/UW3p8vCQSFg/0.jpg)](https://youtu.be/UW3p8vCQSFg)
 
+&nbsp;
 
-
-## 프로젝트 실행 방법
+### 프로젝트 실행 방법
 
 1. **All → Content → NewMap**을 눌러서 기존 맵을 열면 됩니다.
 
    ![Image](https://github.com/user-attachments/assets/a8b8c181-3e39-4e60-92c4-91c61a2158c4)
 
-2. NewMap을 열었다면, **World Settings**에서 원하는 Game Mode 중 하나를 선택해서 플레이 하면 됩니다.
+2. NewMap을 열었다면, **World Settings**에서 원하는 Game Mode 중 하나를 선택해서 플레이하면 됩니다.
 
    ![Image](https://github.com/user-attachments/assets/00a81dac-ff12-4794-8be3-8c6d25f631dd)
 
